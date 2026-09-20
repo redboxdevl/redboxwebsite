@@ -1,0 +1,622 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*body{
+        background:orange;
+    }*/
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*body{
+        background:pink;
+    }*/
+  .menuxs li a {
+    font-size: 13px;
+  }
+  .workingatinner {
+    width: 100%;
+  }
+  .workingatinner h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+  }
+  .slider1 {
+    background: url("../public/images/mobiles2.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider2 {
+    background: url("../public/images/mobiles3.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider3 {
+    background: url("../public/images/mobiles4.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider4 {
+    background: url("../public/images/mobiles10.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider5 {
+    background: url("../public/images/mobiles11.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider6 {
+    background: url("../public/images/mobiles12.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider7 {
+    background: url("../public/images/mobiles20.jpeg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider8 {
+    background: url("../public/images/mobiles21.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider9 {
+    background: url("../public/images/mobiles13.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .captionData {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  .captionData div {
+    width: 100%;
+  }
+  .captionData a {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+  }
+  .boxbrand {
+    margin-left: 0;
+    height: 97px;
+  }
+  .navbar-nav a.nav-link {
+    border-right: none;
+  }
+  .navbar-nav {
+    align-items: flex-end !important;
+    padding-right: 2rem !important;
+    border: none;
+    box-shadow: none;
+  }
+  .Navigation .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    position: absolute;
+    top: 72px;
+    z-index: 2;
+    background: #fff;
+    right: 0;
+    padding: 0 23px;
+  }
+  .navbar-toggler {
+    background: transparent;
+    border: transparent;
+    font-size: 1.4rem;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .Premiumcontent p {
+    font-size: 14px !important;
+    line-height: 26px;
+    font-weight: 300 !important;
+  }
+  .Aroundbox h3 {
+    font-size: 22px !important;
+  }
+  .around1 {
+    height: 210px !important;
+  }
+  .Aroundbox .captionData {
+    flex-direction: row !important;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  .Aroundbox .captionData h2 {
+    font-size: 14px !important;
+  }
+  .Aroundbox .captionData a {
+    font-size: 12px;
+    padding: 10px 20px !important;
+  }
+  .Footer .row {
+    gap: 20px;
+  }
+  .Footer h3 {
+    padding-bottom: 5px;
+  }
+  .navbar-brand {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0;
+  }
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+  .captionData h2 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .captionData p {
+    font-weight: 300;
+    font-size: 14px !important;
+    padding: 1px 0 7px !important;
+  }
+  .fixedBottombar p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    color: #262522;
+  }
+  .fixedBottombar {
+    padding: 4px 0;
+  }
+  .Premiumcontent h3 {
+    font-weight: 700;
+    color: #000;
+  }
+  .Comunitybox h3 {
+    font-size: 23px !important;
+  }
+  .Comunitybox img {
+    height: 267px !important;
+    object-fit: cover;
+  }
+  .Comunitybox h4 {
+    font-size: 24px !important;
+    color: #262522;
+  }
+  p.com1 {
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 28px;
+  }
+  p.com2 {
+    font-size: 14px;
+    font-weight: 300 !important;
+  }
+  .Comunitybox h5,
+  .Comunitychildbox a h5 {
+    color: #cfba82;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  a.projectsx {
+    background-image: linear-gradient(133deg, #c0aa71, #f3e0ab);
+    text-decoration: none;
+    color: #000;
+    padding: 13px 26px;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-items: center;
+    gap: 11px;
+    margin: auto;
+  }
+  .Brands .row {
+    padding: 0px 20px;
+  }
+  .Brands .col-6 {
+    padding: 0px 5px;
+  }
+  .News h3 {
+    font-size: 22px !important;
+  }
+  .newsBoxlayer {
+    padding: 20px 25px;
+  }
+  .News .swiper-button-prev,
+  .News .swiper-button-next {
+    top: 9rem !important;
+  }
+  .News a {
+    margin-bottom: 29px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.13);
+  }
+
+  .Breadcrumbs h1 {
+    font-size: 8.9vw;
+  }
+  .Breadcrumbs p {
+    font-size: 4vw;
+  }
+  .searchingBox .searchinput {
+    background: transparent;
+    border-color: transparent;
+    background-color: hsla(44, 61%, 77%, 0.72);
+    padding: 15px 10px;
+    margin-bottom: 11px;
+  }
+  .Projectfilters button {
+    padding: 11px 15px;
+  }
+  .ProjectdetailsBread img {
+    width: 92%;
+    height: 387px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    object-fit: cover;
+  }
+  .Detailsinfo {
+    padding-top: 6rem;
+  }
+  .Detailsinfo h3 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .Detailsinfo h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .Detailsinfo a {
+    width: 100%;
+  }
+  .Detailsinfo p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .GalleryDetails {
+    display: none;
+  }
+  .communityCon {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+  .amentyitem {
+    height: 220px;
+  }
+  .Aminities h3 {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    padding-bottom: 20px;
+  }
+  .Nearby {
+    display: none;
+  }
+  .workingatinner a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .quoteText p.quote-content {
+    text-align: justify;
+  }
+  .menuxs {
+    display: none;
+  }
+  .mobileBx {
+    padding: 5px 10px;
+    background: red;
+  }
+  p.mobileBx:hover ul.menuxs {
+    display: block !important;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
+  p.mobileBx:hover ul.menuxs {
+    display: block !important;
+  }
+  .menuxs li a {
+    font-size: 13px;
+  }
+  .quoteText p.quote-content {
+    text-align: justify;
+  }
+  .workingatinner a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+  }
+  /* .slider1 {
+    background: url("../public/images/mobiles2.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider2 {
+    background: url("../public/images/mobiles3.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider3 {
+    background: url("../public/images/mobiles4.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider4 {
+    background: url("../public/images/mobiles10.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider5 {
+    background: url("../public/images/mobiles11.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  } */
+
+  .slider1 {
+    background: url("../public/images/mobiles2.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider2 {
+    background: url("../public/images/mobiles3.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider3 {
+    background: url("../public/images/mobiles4.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider4 {
+    background: url("../public/images/mobiles10.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider5 {
+    background: url("../public/images/mobiles11.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider6 {
+    background: url("../public/images/mobiles12.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .slider9 {
+    background: url("../public/images/mobiles13.jpg") !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+  }
+  .captionData {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  .captionData div {
+    width: 100%;
+  }
+  .captionData a {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+  }
+  .boxbrand {
+    margin-left: 0;
+    height: 97px;
+  }
+  .navbar-nav a.nav-link {
+    border-right: none;
+  }
+  .navbar-nav {
+    align-items: flex-end !important;
+    padding-right: 2rem !important;
+    border: none;
+    box-shadow: none;
+  }
+  .Navigation .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    position: absolute;
+    top: 72px;
+    z-index: 2;
+    background: #fff;
+    right: 0;
+    padding: 0 23px;
+  }
+  .navbar-toggler {
+    background: transparent;
+    border: transparent;
+    font-size: 1.4rem;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .Premiumcontent p {
+    font-size: 14px !important;
+    line-height: 26px;
+    font-weight: 300 !important;
+  }
+  .Aroundbox h3 {
+    font-size: 22px !important;
+  }
+  .around1 {
+    height: 210px !important;
+  }
+  .Aroundbox .captionData {
+    flex-direction: row !important;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  .Aroundbox .captionData h2 {
+    font-size: 14px !important;
+  }
+  .Aroundbox .captionData a {
+    font-size: 12px;
+    padding: 10px 20px !important;
+  }
+  .Footer .row {
+    gap: 20px;
+  }
+  .Footer h3 {
+    padding-bottom: 5px;
+  }
+  .navbar-brand {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+  .captionData h2 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .captionData p {
+    font-weight: 300;
+    font-size: 14px !important;
+    padding: 1px 0 7px !important;
+  }
+  .fixedBottombar p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    color: #262522;
+  }
+  .fixedBottombar {
+    padding: 4px 0;
+  }
+  .Premiumcontent h3 {
+    font-weight: 700;
+    color: #000;
+  }
+  .Comunitybox h3 {
+    font-size: 23px !important;
+  }
+  .Comunitybox img {
+    height: 267px !important;
+    object-fit: cover;
+  }
+  .Comunitybox h4 {
+    font-size: 24px !important;
+    color: #262522;
+  }
+  p.com1 {
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 28px;
+  }
+  p.com2 {
+    font-size: 14px;
+    font-weight: 300 !important;
+  }
+  .Comunitybox h5,
+  .Comunitychildbox a h5 {
+    color: #cfba82;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  a.projectsx {
+    background-image: linear-gradient(133deg, #c0aa71, #f3e0ab);
+    text-decoration: none;
+    color: #000;
+    padding: 13px 26px;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-items: center;
+    gap: 11px;
+    margin: auto;
+  }
+  .Brands .row {
+    padding: 0px 20px;
+  }
+  .Brands .col-6 {
+    padding: 0px 5px;
+  }
+  .News h3 {
+    font-size: 22px !important;
+  }
+  .newsBoxlayer {
+    padding: 20px 25px;
+  }
+  .News .swiper-button-prev,
+  .News .swiper-button-next {
+    top: 9rem !important;
+  }
+  .News a {
+    margin-bottom: 29px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.13);
+  }
+  .menuxs {
+    display: none;
+  }
+}
